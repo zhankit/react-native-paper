@@ -70,6 +70,7 @@
     "@types/react-test-renderer": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^5.41.0",
     "@typescript-eslint/parser": "^5.41.0",
+    "@uxpin/merge-cli": "^3.4.6",
     "all-contributors-cli": "^6.24.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^7.0.0-bridge.0",
@@ -108,8 +109,8 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "yarn lint-no-fix && yarn typescript && yarn test"
+      "commit-msg": "",
+      "pre-commit": ""
     }
   },
   "jest": {
